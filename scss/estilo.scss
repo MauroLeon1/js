@@ -1,0 +1,58 @@
+@import "variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $colorOr;
+  header {
+    background-image: url(../imagenes/fondo_pancho.png);
+    height: 100vh;
+    width: auto;
+    nav {
+      height: 4rem;
+      background-color: $colorBl;
+      div {
+        align-items: center;
+        height: 100%;
+        h1 {
+          @include title;
+          color: antiquewhite;
+          margin: 0 0 0 1.5rem;
+        }
+      }
+    }
+    .header__div__welcome {
+      height: 45%;
+      align-items: center;
+      justify-content: center;
+      h2 {
+        @include title;
+        font-size: 2.6em;
+        color: antiquewhite;
+        text-align: center;
+      }
+    }
+    .header__div__p {
+      width: 90%;
+      margin: 0 auto;
+      p {
+        color: antiquewhite;
+        text-align: center;
+      }
+    }
+  }
+  main {
+    section {
+      div {
+        text-align: center;
+        h3 {
+          color: aliceblue;
+          font-family: "Luckiest Guy";
+        }
+      }
+    }
+  }
+}

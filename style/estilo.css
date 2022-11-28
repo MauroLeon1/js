@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(230, 80, 0);
+}
+body header {
+  background-image: url(../imagenes/fondo_pancho.png);
+  height: 100vh;
+  width: auto;
+}
+body header nav {
+  height: 4rem;
+  background-color: rgb(10, 10, 10);
+}
+body header nav div {
+  align-items: center;
+  height: 100%;
+}
+body header nav div h1 {
+  font-size: 2Rem;
+  font-family: "Luckiest Guy";
+  color: antiquewhite;
+  margin: 0 0 0 1.5rem;
+}
+body header .header__div__welcome {
+  height: 45%;
+  align-items: center;
+  justify-content: center;
+}
+body header .header__div__welcome h2 {
+  font-size: 2Rem;
+  font-family: "Luckiest Guy";
+  font-size: 2.6em;
+  color: antiquewhite;
+  text-align: center;
+}
+body header .header__div__p {
+  width: 90%;
+  margin: 0 auto;
+}
+body header .header__div__p p {
+  color: antiquewhite;
+  text-align: center;
+}
+body main section div {
+  text-align: center;
+}
+body main section div h3 {
+  color: aliceblue;
+  font-family: "Luckiest Guy";
+}
